@@ -3667,6 +3667,15 @@ to {
     transform: translateY(-5px);
 }
 
+.disclaimer {
+    padding: 20px;
+}
+.disclaimer h4 {
+    padding: 20px;
+}
+.disclaimer p {
+    padding: 20px;
+}
 /* Preloader -------------------------------------------------------*/
 
 /* Loader Styles start here */
