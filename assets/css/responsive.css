@@ -110,8 +110,8 @@ h1 {font-size: 58px; line-height: 66px;}
 .committed-con .committed-leftimage img {width: 315px;}
 .committed-con .committed_content h6 {margin-bottom: 15px;}
 .committed-con .committed_content h2 {margin-bottom: 25px;}
-.committed-con .committed_content .text1 {margin-bottom: 20px;}
-.committed-con .committed_content .text2 {margin-bottom: 35px;}
+.committed-con .committed_content .text1 {margin-bottom: 20px; text-align: justify;}
+.committed-con .committed_content .text2 {margin-bottom: 35px; text-align: justify;}
 .committed-con .committed-image {right: -22px; bottom: -45px;}
 .committed-con .committed-image img{width: 485px;}
 .committed-con .committed_wrapper {padding-top: 120px;}
@@ -227,7 +227,9 @@ h1 {font-size: 58px; line-height: 66px;}
 .legal_situation_portfolio .portfolio_content {margin-bottom: 65px;}
 .legal_situation_faq {padding: 350px 0 100px;}
 .amazing-con .amazing-sideimage img {display: none;}
-.amazing-con .amazing-image {left: -317px;}
+.amazing-con .amazing-image {
+    /* left: -317px; */
+}
 .amazing-con .amazing_content {padding: 100px 0 100px 20px;}
 .legal_situation_testimonial {padding: 100px 0 200px;}
 .legal_situation_testimonial .testimonial_content {margin-bottom: 40px;}
@@ -907,7 +909,10 @@ button:focus {outline: none;}
 .legal_situation_portfolio .owl-carousel .owl-dots .owl-dot span {width: 10px; height: 10px; margin: 0 3px;}
 .legal_situation_portfolio .owl-carousel .owl-dots .owl-dot.active span {width: 14px; height: 14px;}
 .legal_situation_faq {padding: 270px 0 60px;}
-.amazing-con .amazing-image {position: relative; text-align: center; left: unset;}
+.amazing-con .amazing-image {position: relative; text-align: center; 
+    /* left: unset; */
+    transform: translateX(73%);
+}
 .amazing-con .amazing-image img{width: 80%;}
 .amazing-con .amazing_content {padding: 60px 0; text-align: center;}
 .amazing-con .amazing_content h6 {width: 166px; margin: 0 auto 12px; text-align: left;}

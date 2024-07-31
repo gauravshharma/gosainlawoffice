@@ -126,6 +126,18 @@ p{
     font-weight: 400;
     color: var(--e-global-color-text);
 }
+.text-size-13{
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: 400;
+    color: var(--e-global-color-text);
+}
+.text-size-12{
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+    color: var(--e-global-color-text);
+}
 a{
     font-size: 16px;
     line-height: 16px;
@@ -1527,7 +1539,7 @@ h6:before{
     height: 100%;
     opacity: 45%;
     position: absolute;
-    background: url(../images/subbanner-backgroundimage.jpg);
+    background: url(../images/About-bg-img.jpg);
     background-position: bottom;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1641,8 +1653,8 @@ h6:before{
 .contact_map_con iframe {
     width: 100%;
     height: 547px;
-    filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);
+    /* filter: grayscale(100%);
+    -webkit-filter: grayscale(100%); */
     border-radius: 20px;
     border: none;
 }
@@ -2127,7 +2139,7 @@ h6:before{
 }
 .practice-con .box{
     padding: 48px 35px 45px;
-    min-height: 380px;
+    min-height: 350px;
     margin-bottom: 30px;
     cursor: pointer;
     text-align: center;
@@ -2149,7 +2161,6 @@ h6:before{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url(../images/practicearea-bgimage.jpg);
     transition: all 0.3s ease-in-out;
 }
 .practice-con .box a{
@@ -2171,6 +2182,7 @@ h6:before{
 .practice-con .practice-box{
     position: relative;
     z-index: 1;
+    border: 1px solid transparent;
 }
 .practice-con .practice-box .icon{
     margin-bottom: 18px;
@@ -2191,18 +2203,18 @@ h6:before{
 }
 
 .practice-con .box:hover {
-    background-color: var(--e-global-color-accent);
+    border: 1px solid var(--e-global-color-accent);
 }
 .practice-con .box:hover::before {
     display: block;
     transition: all 0.3s ease-in-out;
 }
-.practice-con .box:hover .icon{
-    filter: brightness(0) invert(1);;
-}
+/* .practice-con .box:hover .icon{
+    filter: brightness(0) invert(1);
+} */
 .practice-con .box:hover h5,
 .practice-con .box:hover p{
-    color: var(--e-global-color-white);
+    color: var(--e-global-color-primary);
 }
 .practice-con .box:hover i{
     color: var(--e-global-color-primary);
@@ -2533,6 +2545,7 @@ h6:before{
 .legal_situation_banner .banner_content p{
     line-height: 30px;
     margin-bottom: 40px;
+    font-weight: 500;
     padding: 0 100px;
 }
 .legal_situation_banner .banner_content .appointment {
@@ -2713,6 +2726,7 @@ h6:before{
     width: auto;
     height: 100%;
     position: absolute;
+    transform: translateX(70%);
 }
 .amazing-con .amazing-image img{
     opacity: 100%;
@@ -3637,7 +3651,7 @@ to {
 }
 }
 
-/* Whatsapp button  -------------------------------------------------------*/
+/* Custom CSS  -------------------------------------------------------*/
 
 #whatsapp-btn {
     display: block !important;
@@ -3675,6 +3689,51 @@ to {
 }
 .disclaimer p {
     padding: 20px;
+}
+.color-beige {
+    color: var(--e-global-color-secondary);
+}
+.modal-header {
+    margin: 0px 1rem;
+    border: none;
+    padding: 1rem 0 0px;
+}
+
+.committed_content ul {
+    margin-bottom: 40px;
+}
+.committed_content ul li {
+    position: relative;
+    margin-bottom: 13px;
+}
+.committed_content ul li i {
+    font-size: 10px;
+    height: 18px;
+    width: 18px;
+    line-height: 18px;
+    top: 2px;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    border-radius: 100%;
+    color: var(--e-global-color-white);
+    background-color: var(--e-global-color-accent);
+    transition: all 0.3s ease-in-out;
+}
+.committed_content ul li p {
+    line-height: 20px;
+    font-weight: 500;
+    padding-left: 34px;
+    text-align: left;
+    margin: 20px 0;
+    color: var(--e-global-color-primary);
+    transition: all 0.3s ease-in-out;
+}
+
+.zoomed {
+    zoom: -1;
+    -moz-transform: scale(-1);
+    -webkit-transform: scale(-1);
 }
 /* Preloader -------------------------------------------------------*/
 
