@@ -2138,8 +2138,8 @@ h6:before{
     color: var(--e-global-color-primary);
 }
 .practice-con .box{
-    padding: 48px 35px 45px;
-    min-height: 320px;
+    padding: 40px 30px 30px;
+    min-height: 300px;
     margin-bottom: 30px;
     cursor: pointer;
     text-align: center;
