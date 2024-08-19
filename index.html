@@ -2,8 +2,7 @@
 <html lang="zxx">
 
 <head>
-    <title>Gosain Law Office | Providing top-notch
-        legal representation</title>
+    <title>Gosain Law Office | Providing top-notch legal representation</title>
     <!-- /SEO Ultimate -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
     <meta charset="utf-8">
@@ -34,6 +33,15 @@
     <link href="assets/css/owl.theme.default.min.css" rel="stylesheet" type="text/css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css">
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function(){
+            emailjs.init({
+                publicKey: "emDVn5LbuAbfzEJaH",
+            });
+        })();
+    </script>
+    <script src="assets/js/script.js"></script>
 </head>
 <body>
 <!-- Back to top button -->
@@ -456,33 +464,39 @@
                         <div class="col-lg-7 col-md-12 col-sm-12 col-12">
                             <div class="contact_content">
                                 <h6>Contact Us</h6>
-                                <h2 class="text-white">Book a Free Consultation</h2>
-                                <form id="contactpage" method="post" class="position-relative">
-                                    <div class="form-group input1 float-left">
-                                        <input type="text" class="form_style" placeholder="Name" name="fname" id="fname" required>
-                                    </div>
-                                    <div class="form-group float-left">
-                                        <input type="tel" class="form_style" placeholder="Phone" name="phone" id="phone" required>
-                                    </div>
-                                    <div class="form-group input1 float-left">
-                                        <input type="email" class="form_style" placeholder="Email" name="email" id="email">
-                                    </div>
-                                    <div class="form-group float-left">
-                                        <select class="form-control">
-                                            <option>Practice Areas</option>
-                                            <option value="Criminal Law">Criminal Law</option>
-                                            <option value="Civil Law">Civil Law</option>
-                                            <option value="Property Law">Property Law</option>
-                                            <option value="Family/Matrimonial Law">Family/Matrimonial Law</option>
-                                            <option value="Contracts Drafting">Contracts Drafting</option>
-                                            <option value="Insurance Claims">Insurance Claims</option>
-                                        </select>
-                                    </div>
-                                    <div class="form-group message">
-                                        <textarea class="form_style" placeholder="Message (Optional)" rows="3" name="msg"></textarea>
-                                    </div>
-                                    <button id="submit" type="submit" class="appointment">Book Appointment<i class="fa-solid fa-arrow-right"></i></button>
-                                </form>
+                                <div id="preFormSubmit">
+                                    <h2 class="text-white">Book a Free Consultation</h2>
+                                    <form id="contactpage" method="post" class="position-relative">
+                                        <div class="form-group input1 float-left">
+                                            <input type="text" class="form_style" placeholder="Full Name" name="fname" id="fname" required>
+                                        </div>
+                                        <div class="form-group float-left">
+                                            <input type="tel" class="form_style" placeholder="Phone" name="phone" id="phone" required>
+                                        </div>
+                                        <div class="form-group input1 float-left">
+                                            <input type="email" class="form_style" placeholder="Email" name="email" id="email">
+                                        </div>
+                                        <div class="form-group float-left">
+                                            <select class="form-control" id="practiceArea">
+                                                <option>Practice Areas</option>
+                                                <option value="Criminal Law">Criminal Law</option>
+                                                <option value="Civil Law">Civil Law</option>
+                                                <option value="Property Law">Property Law</option>
+                                                <option value="Family/Matrimonial Law">Family/Matrimonial Law</option>
+                                                <option value="Contracts Drafting">Contracts Drafting</option>
+                                                <option value="Insurance Claims">Insurance Claims</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group message">
+                                            <textarea class="form_style" placeholder="Message (Optional)" rows="3" name="msg" id="message"></textarea>
+                                        </div>
+                                        <button id="submit" type="submit" class="appointment">Book Appointment<i class="fa-solid fa-arrow-right"></i></button>
+                                    </form>
+                                </div>
+                                <div id="postFormSubmit" data-aos="fade-up">
+                                    <h2 class="text-white">Thanks for your details!</h2>
+                                    <p class="text-white">We will contact you shortly.</p>
+                                </div>
                             </div>
                         </div>
                     </div>

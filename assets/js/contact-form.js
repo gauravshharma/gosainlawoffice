@@ -1,9 +1,6 @@
 jQuery(document).ready(function () {
 	jQuery('#submit').on('click',document,function(){
-			if(jQuery('#captcha_val').val()!=jQuery('#captcha_text').val()){
-				$('#captcha_text').parent('div').append('<span class="error">Captch is not match</span>');
-			}
-			else{
+
 				jQuery("#contactpage").validate({
 					submitHandler : function (e) {
 						submitSignupFormNow(jQuery("#contactpage"))
@@ -15,10 +12,6 @@ jQuery(document).ready(function () {
 						phone : {
 							required : true,
 							number : true
-						},
-						email : {
-							required : true,
-							email : true
 						}
 					},
 					errorElement : "span",
@@ -26,26 +19,31 @@ jQuery(document).ready(function () {
 						e.appendTo(t.parent())
 					}
 				});
+				let params = {
+					fname : document.getElementById("fname").value,
+					phone : document.getElementById("phone").value,
+					email : document.getElementById("email").value,
+					practiceArea : document.getElementById("practiceArea").value,
+					message : document.getElementById("message").value
+				}
 				submitSignupFormNow = function (e) {
 					var t = e.serialize();
-					var n = "contact-form.php";
-					jQuery.ajax({
-						url : n,
-						type : "POST",
-						data : t,
-						success : function (e) {
-							var t = jQuery.parseJSON(e);
-							if (t.status == "Success") {
-								jQuery("#form_result").html('<span class="form-success alert alert-success d-block">' + t.msg + "</span>");
-							} else {
-								jQuery("#form_result").html('<span class="form-error alert alert-danger d-block">' + t.msg + "</span>")
-							}
-							jQuery("#form_result").show();
-						}
-					});
+					
+					emailjs.send("service_jh0r6x5","template_kj5dplg",params).then(response => {
+						if (response.status == "200") {
+							$('.loader-mask').delay(350).fadeOut('slow');
+							const postFormSubmit = document.getElementById("postFormSubmit");
+							const preFormSubmit = document.getElementById("preFormSubmit");
+							preFormSubmit.style.display = "none"; 
+							postFormSubmit.style.display = "block"; 
+						} else {
+							jQuery("#form_result").html('<span class="form-error alert alert-danger d-block">' + t.msg + "</span>")
+						  }
+						  jQuery("#form_result").show();
+						});
 					return false
 				}
-		}
+		
 	});
 	
 })

@@ -1602,6 +1602,9 @@ h6:before{
 .contact-con .contact_content {
     margin-bottom: 55px;
 }
+#postFormSubmit {
+    display: none;
+}
 .contact-con .contact_content h6{
     width: 166px;
     margin: 0 auto 20px;
