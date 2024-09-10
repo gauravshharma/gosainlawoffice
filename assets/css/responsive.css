@@ -1500,9 +1500,10 @@ h6 {font-size: 12px; line-height: 18px;}
 .legal_situation_testimonial .carousel-indicators li {width: 50px; height: 50px; line-height: 45px;}
 .legal_situation_testimonial .carousel-indicators li figure img {width: 40px;}
 .legal_situation_testimonial .testimonial_box p {margin-bottom: 10px;}
-.legal_situation_testimonial .pagination-outer {bottom: -50px; width: 330px; margin: 0 auto;}
-.legal_situation_testimonial .pagination-outer .carousel-control-prev {left: 15px;}
-.legal_situation_testimonial .pagination-outer .carousel-control-next {right: 15px;}
+.legal_situation_testimonial .testimonial_box .name_wrapper {margin-top: 30px;}
+.legal_situation_testimonial .pagination-outer {bottom: 10px; width: 330px; margin: 0 auto;}
+.legal_situation_testimonial .pagination-outer .carousel-control-prev {left: -20px;}
+.legal_situation_testimonial .pagination-outer .carousel-control-next {right: -20px;}
 .blog-con .article_content {margin-bottom: 25px;}
 .blog-con .article_content h6 {margin-bottom: 6px;}
 .blog-con .article-box {width: 330px;}
