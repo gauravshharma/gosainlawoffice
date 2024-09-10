@@ -86,7 +86,7 @@ $(document).ready(function () {
         loop: true,
         dots: false,
         autoplay: true,
-        autoplayTimeout: 4500,
+        autoplayTimeout: 3500,
         responsive: {
             0: {
                 items: 1

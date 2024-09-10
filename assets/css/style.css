@@ -2817,7 +2817,7 @@ h6:before{
 /* Legal Situation Testimonial */
 
 .legal_situation_testimonial{
-    padding: 146px 0 250px;
+    padding: 146px 0 100px;
     background: var(--e-global-color-light-grayish-orange);
 }
 .legal_situation_testimonial .testimonial_content {
@@ -2874,6 +2874,7 @@ h6:before{
 }
 .legal_situation_testimonial .testimonial_box .testimonial-starimage {
     margin-bottom: 22px;
+    display: none;
 }
 .legal_situation_testimonial .testimonial_box p {
     margin-bottom: 34px;
@@ -2901,7 +2902,7 @@ h6:before{
 }
 .legal_situation_testimonial .pagination-outer {
     position: relative;
-    bottom: -65px;
+    bottom: 20px;
     right: 0;
     z-index: 2;
 }
@@ -2919,10 +2920,10 @@ h6:before{
     color: var(--e-global-color-accent);
 }
 .legal_situation_testimonial .pagination-outer .carousel-control-prev{
-    left: 292px;
+    left: 262px;
 }
 .legal_situation_testimonial .pagination-outer .carousel-control-next{
-    right: 290px;
+    right: 260px;
 }
 
 /* Blog */
