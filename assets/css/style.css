@@ -2512,7 +2512,7 @@ h6:before{
     height: 100%;
     opacity: 55%;
     position: absolute;
-    background: url(../images/hero.jpg);
+    background: url(../images/hero2.jpg);
     height: 100%;
     background-attachment: fixed;
     background-position: center;
@@ -3685,13 +3685,7 @@ to {
 }
 
 .disclaimer {
-    padding: 20px;
-}
-.disclaimer h4 {
-    padding: 20px;
-}
-.disclaimer p {
-    padding: 20px;
+    padding: 40px;
 }
 .color-beige {
     color: var(--e-global-color-secondary);
@@ -3737,6 +3731,26 @@ to {
     zoom: -1;
     -moz-transform: scale(-1);
     -webkit-transform: scale(-1);
+}
+
+.btn-theme {
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 700;
+    padding: 21px 33.5px;
+    border: none;
+    position: relative;
+    border-radius: 30px;
+    color: var(--e-global-color-very-dark-black-blue);
+    background: var(--e-global-color-secondary);
+    overflow: visible;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-theme:hover {
+    color: var(--e-global-color-white);
+    background: var(--e-global-color-very-dark-black-blue);
 }
 /* Preloader -------------------------------------------------------*/
 
