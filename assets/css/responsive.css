@@ -1244,7 +1244,7 @@ a {font-size: 14px; line-height: 14px;}
 .amazing-con .amazing_content {padding: 40px 30px;}
 .amazing-con .amazing_content h6 {margin-bottom: 8px;}
 .amazing-con .amazing_content h2 {margin-bottom: 12px;}
-.amazing-con .amazing_content p {padding: 0; margin-bottom: 25px;}
+.amazing-con .amazing_content p {padding: 0; margin-bottom: 40px;}
 .amazing-con .content {width: 365px;}
 .amazing-con .amazing_content .lower_portion {padding-left: 35px;}
 .amazing-con .amazing_content .amazing-box {margin-bottom: 30px;}
@@ -1503,7 +1503,7 @@ h6 {font-size: 12px; line-height: 18px;}
 .legal_situation_testimonial .testimonial_box .name_wrapper {margin-top: 30px;}
 .legal_situation_testimonial .pagination-outer {bottom: 10px; width: 330px; margin: 0 auto;}
 .legal_situation_testimonial .pagination-outer .carousel-control-prev {left: -20px;}
-.legal_situation_testimonial .pagination-outer .carousel-control-next {right: -20px;}
+.legal_situation_testimonial .pagination-outer .carousel-control-next {right: px;}
 .blog-con .article_content {margin-bottom: 25px;}
 .blog-con .article_content h6 {margin-bottom: 6px;}
 .blog-con .article-box {width: 330px;}
