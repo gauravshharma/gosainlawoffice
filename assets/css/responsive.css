@@ -912,7 +912,7 @@ button:focus {outline: none;}
 .legal_situation_faq {padding: 270px 0 60px;}
 .amazing-con .amazing-image {position: relative; text-align: center; 
     /* left: unset; */
-    transform: translateX(73%);
+    transform: translateX(75%);
 }
 .amazing-con .amazing-image img{width: 80%;}
 .amazing-con .amazing_content {padding: 60px 0; text-align: center;}
@@ -1486,11 +1486,11 @@ h6 {font-size: 12px; line-height: 18px;}
 .legal_situation_portfolio .owl-carousel .owl-dots .owl-dot.active span {width: 13px; height: 13px;}
 .legal_situation_faq {padding: 230px 0 40px;}
 .amazing-con .amazing_content {padding: 40px 0 20px;}
-.amazing-con .content {width: 290px;}
+.amazing-con .content {width: 100%; margin: 20px auto; padding-top: 20px;}
 .amazing-con .amazing_content .lower_portion {padding-left: 20px;}
-.amazing-con .amazing_content .amazing-box {margin-bottom: 20px !important;}
-.amazing-con .amazing_content .icon {width: 52px; height: 52px; line-height: 52px;}
-.amazing-con .amazing_content .icon img {height: 28px;}
+.amazing-con .amazing_content .amazing-box {margin-bottom: 20px !important; margin-right: 10px;}
+.amazing-con .amazing_content .icon {width: 40px; height: 50px; line-height: 50px;}
+.amazing-con .amazing_content .icon img {height: 25px;}
 .amazing-con .amazing_content .box-content {padding-left: 12px;}
 .amazing-con .amazing_content .number,
 .amazing-con .amazing_content .plus {font-size: 22px; line-height: 22px;}
@@ -1505,7 +1505,7 @@ h6 {font-size: 12px; line-height: 18px;}
 .legal_situation_testimonial .testimonial_box .name_wrapper {margin-top: 30px;}
 .legal_situation_testimonial .pagination-outer {bottom: 10px; width: 330px; margin: 0 auto;}
 .legal_situation_testimonial .pagination-outer .carousel-control-prev {left: -20px;}
-.legal_situation_testimonial .pagination-outer .carousel-control-next {right: px;}
+.legal_situation_testimonial .pagination-outer .carousel-control-next {right: -20px;}
 .blog-con .article_content {margin-bottom: 25px;}
 .blog-con .article_content h6 {margin-bottom: 6px;}
 .blog-con .article-box {width: 330px;}

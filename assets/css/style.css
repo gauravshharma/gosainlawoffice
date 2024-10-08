@@ -187,6 +187,9 @@ h6:before{
     position: relative;
     z-index: 5;
 }
+.navbar {
+    backdrop-filter: blur(25px);
+}
 .navbar-collapse ul{
     text-align: center;
     align-items: center; 
@@ -195,7 +198,6 @@ h6:before{
 .navbar-expand-lg{
     position: relative;
     z-index: 1;
-    backdrop-filter: blur(25px);
 }
 .navbar-brand {
     margin-left: 0;
@@ -2759,9 +2761,10 @@ h6:before{
 .amazing-con .content{
     display: flex;
     align-items: center;
+    padding-top: 40px;
 }
 .amazing-con .amazing_content .lower_portion{
-    padding-left: 54px;
+    padding-left: 15px;
 }
 .amazing-con .amazing_content .amazing-box{
     display: flex;
@@ -2929,7 +2932,9 @@ h6:before{
 .legal_situation_testimonial .pagination-outer .carousel-control-next{
     right: 260px;
 }
-
+.whitespace-nowrap {
+    white-space: nowrap;
+}
 /* Blog */
 
 .blog-con {
