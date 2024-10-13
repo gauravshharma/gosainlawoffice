@@ -1425,9 +1425,9 @@ h6 {font-size: 12px; line-height: 18px;}
 .team-con .team-box .content h4 {margin-bottom: 4px;}
 .about-con .content {padding: 25px 15px 30px;}
 .about-con .content h6 {margin-bottom: 10px;}
-.about-con .content h2 {margin-bottom: 14px;}
+.about-con .content h2 {margin-bottom: 20px;}
 .about-con .content p {margin-bottom: 18px;}
-.about-con .content ul {width: 290px; margin-bottom: 22px;}
+.about-con .content ul {width: 290px; margin-bottom: 30px;}
 .about-con .content ul li {margin-bottom: 6px;}
 /* Case Studies Page */
 .portfolio-con {padding: 40px 0 25px;}
@@ -1471,7 +1471,7 @@ h6 {font-size: 12px; line-height: 18px;}
 .legal_situation_banner .banner_content {padding: 40px 0 100px;}
 .legal_situation_banner .banner_content h6 {margin-bottom: 8px;}
 .legal_situation_banner .banner_content h1 {font-size: 30px; line-height: 42px; margin-bottom: 10px;}
-.legal_situation_banner .banner_content p {line-height: 22px; margin-bottom: 18px;}
+.legal_situation_banner .banner_content p {line-height: 22px; margin-bottom: 18px; padding: 0 20px;}
 .legal_situation_banner .banner_content .down_button img{width: 25px;}
 .legal_situation_portfolio .portfolio_content {margin-bottom: 25px;}
 .legal_situation_portfolio .portfolio_content h6 {margin-bottom: 6px;}
