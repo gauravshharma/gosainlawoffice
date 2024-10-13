@@ -1368,7 +1368,7 @@ h6:before{
 }
 .footer-con .middle_portion h4 {
     margin-bottom: 20px;
-    color: var(--e-global-color-white);
+    color: var(--e-global-color-dark-gray);
 }
 .footer-con .middle_portion li:last-child {
     margin-bottom: 0 !important;
@@ -1431,7 +1431,7 @@ h6:before{
     font-size: 13px;
     line-height: 22px;
     font-weight: 400;
-    color: var(--e-global-color-dark-gray);
+    color: var(--e-global-color-white);
     transition: all 0.3s ease-in-out;
 }
 .footer-con .middle_portion .icon i {
