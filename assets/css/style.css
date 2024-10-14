@@ -201,6 +201,7 @@ h6:before{
     position: relative;
     z-index: 1;
     backdrop-filter: blur(25px);
+    -webkit-backdrop-filter: blur(25px);
 }
 .navbar-brand {
     margin-left: 0;
@@ -1350,7 +1351,7 @@ h6:before{
     color: var(--e-global-color-dark-gray);
 }
 .footer-con .middle_portion .logo-content a figure img {
-    width: 300px
+    width: 200px
 }    
 .footer-con .middle_portion .social-icons li {
     display: inline-block;
@@ -2733,11 +2734,9 @@ h6:before{
     display: contents;
 }
 .amazing-con .amazing-image {
-    left: -390px;
     width: auto;
     height: 100%;
     position: absolute;
-    transform: translateX(70%);
 }
 .amazing-con .amazing-image img{
     opacity: 100%;
