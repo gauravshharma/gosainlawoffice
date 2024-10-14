@@ -544,7 +544,7 @@ h5 {font-size: 18px; line-height: 28px;}
 .legal_situation_testimonial .carousel-inner {width: 75%;}
 .legal_situation_testimonial .testimonial_box .testimonial-starimage {margin-bottom: 12px;}
 .legal_situation_testimonial .testimonial_box .testimonial-starimage img{width: 95px;}
-.legal_situation_testimonial .testimonial_box p {font-size: 16px; line-height: 24px; margin-bottom: 20px;}
+.legal_situation_testimonial .testimonial_box p {font-size: 16px; line-height: 24px; margin: 10px 15px;}
 .legal_situation_testimonial .testimonial_box .name {font-size: 16px; line-height: 20px; margin-bottom: 3px;}
 .legal_situation_testimonial .pagination-outer .carousel-control-prev {left: 230px;}
 .legal_situation_testimonial .pagination-outer .carousel-control-next {right: 230px;}
@@ -905,15 +905,12 @@ button:focus {outline: none;}
 .legal_situation_portfolio .lower_portion {margin-bottom: -223px;}
 .legal_situation_portfolio .portfolio-box span {left: 108px; bottom: -13px; padding: 7px 14px;}
 .legal_situation_portfolio .portfolio-box .box-content {padding: 35px 30px 20px;}
-.legal_situation_portfolio .portfolio-box .box-content p {margin-bottom: 10px;}
+.legal_situation_portfolio .portfolio-box .box-content p {margin-bottom: 10px 15px;}
 .legal_situation_portfolio .owl-carousel .owl-dots {margin-top: 0px !important;}
 .legal_situation_portfolio .owl-carousel .owl-dots .owl-dot span {width: 10px; height: 10px; margin: 0 3px;}
 .legal_situation_portfolio .owl-carousel .owl-dots .owl-dot.active span {width: 14px; height: 14px;}
 .legal_situation_faq {padding: 270px 0 60px;}
-.amazing-con .amazing-image {position: relative; text-align: center; 
-    /* left: unset; */
-    transform: translateX(73%);
-}
+.amazing-con .amazing-image {transform: translateX(42%);}
 .amazing-con .amazing-image img{width: 80%;}
 .amazing-con .amazing_content {padding: 60px 0; text-align: center;}
 .amazing-con .amazing_content h6 {width: 166px; margin: 0 auto 12px; text-align: left;}
@@ -1467,10 +1464,11 @@ h6 {font-size: 12px; line-height: 18px;}
 .succeed-con .succeed-box {width: 330px; padding: 20px; margin: 0 auto 15px;}
 .succeed-con .succeed-box .number {font-size: 22px; line-height: 22px;}
 .aboutpage-testimonial{padding-bottom: 75px;}
+.amazing-con .amazing-image {transform: translateX(72%);}
 /* Home Page 2 */
 .legal_situation_banner .banner_content {padding: 40px 0 100px;}
 .legal_situation_banner .banner_content h6 {margin-bottom: 8px;}
-.legal_situation_banner .banner_content h1 {font-size: 30px; line-height: 42px; margin-bottom: 10px;}
+.legal_situation_banner .banner_content h1 {font-size: 28px; line-height: 42px; margin-bottom: 10px;}
 .legal_situation_banner .banner_content p {line-height: 22px; margin-bottom: 18px; padding: 0 20px;}
 .legal_situation_banner .banner_content .down_button img{width: 25px;}
 .legal_situation_portfolio .portfolio_content {margin-bottom: 25px;}
@@ -1495,7 +1493,7 @@ h6 {font-size: 12px; line-height: 18px;}
 .amazing-con .amazing_content .number,
 .amazing-con .amazing_content .plus {font-size: 22px; line-height: 22px;}
 .amazing-con .amazing_content .text {font-size: 10px; line-height: 10px;}
-.legal_situation_testimonial {padding: 40px 0 120px;}
+.legal_situation_testimonial {padding: 40px 0;}
 .legal_situation_testimonial .testimonial_content {margin-bottom: 10px;}
 .legal_situation_testimonial .testimonial_content h6 {margin-bottom: 6px;}
 .legal_situation_testimonial .carousel-indicators {bottom: -90px;}
@@ -1505,7 +1503,7 @@ h6 {font-size: 12px; line-height: 18px;}
 .legal_situation_testimonial .testimonial_box .name_wrapper {margin-top: 30px;}
 .legal_situation_testimonial .pagination-outer {bottom: 10px; width: 330px; margin: 0 auto;}
 .legal_situation_testimonial .pagination-outer .carousel-control-prev {left: -20px;}
-.legal_situation_testimonial .pagination-outer .carousel-control-next {right: px;}
+.legal_situation_testimonial .pagination-outer .carousel-control-next {right: -20px;}
 .blog-con .article_content {margin-bottom: 25px;}
 .blog-con .article_content h6 {margin-bottom: 6px;}
 .blog-con .article-box {width: 330px;}
