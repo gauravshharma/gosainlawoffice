@@ -29,7 +29,7 @@ jQuery(document).ready(function () {
 				submitSignupFormNow = function (e) {
 					var t = e.serialize();
 					
-					emailjs.send("service_jh0r6x5","template_kj5dplg",params).then(response => {
+					emailjs.send("service_3jttm39","template_kj5dplg",params).then(response => {
 						if (response.status == "200") {
 							$('.loader-mask').delay(350).fadeOut('slow');
 							const postFormSubmit = document.getElementById("postFormSubmit");
